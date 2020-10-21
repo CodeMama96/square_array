@@ -10,3 +10,12 @@ def square_array(array)
   end
   .take(array.length)
 end
+
+def square_array(array)
+  # your code here
+  new_array = []
+  array.each do |numbers| 
+    new_array << numbers**2
+  end
+  new_array
+end
